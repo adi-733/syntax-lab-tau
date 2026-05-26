@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
 :root {
   --bg: #f8fbfe;
   --surface: #ffffff;
@@ -6,8 +8,8 @@
   --text: #18344d;
   --muted: #546b82;
   --accent: #2f6fa3;
-  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  --font-body: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-display: "Assistant", "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-body: "Assistant", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 * {

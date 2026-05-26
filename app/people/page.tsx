@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import alumniData from "@/data/alumni.json";
 import teamData from "@/data/team.json";
@@ -57,10 +58,12 @@ export default function PeoplePage() {
             {team.map((member) => (
               <article className="person-card" key={`${member.name}-${member.role}`}>
                 {member.photo ? (
-                  <img
+                  <Image
                     className="person-photo"
                     src={member.photo}
                     alt={member.name}
+                    width={140}
+                    height={140}
                   />
                 ) : (
                   <div className="person-placeholder" aria-hidden="true">
@@ -80,10 +83,12 @@ export default function PeoplePage() {
             {alumni.map((entry) => (
               <article className="person-card" key={entry.name}>
                 {entry.photo ? (
-                  <img
+                  <Image
                     className="person-photo"
                     src={entry.photo}
                     alt={entry.name}
+                    width={140}
+                    height={140}
                   />
                 ) : (
                   <div className="person-placeholder" aria-hidden="true">
