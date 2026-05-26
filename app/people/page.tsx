@@ -17,6 +17,11 @@ type AlumniEntry = {
 
 const team = teamData as TeamMember[];
 const alumni = alumniData as AlumniEntry[];
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+function withBasePath(path: string) {
+  return `${basePath}${path}`;
+}
 
 const navigation = [
   { label: "Home", href: "/" },
@@ -60,7 +65,7 @@ export default function PeoplePage() {
                 {member.photo ? (
                   <Image
                     className="person-photo"
-                    src={member.photo}
+                    src={withBasePath(member.photo)}
                     alt={member.name}
                     width={140}
                     height={140}
@@ -85,7 +90,7 @@ export default function PeoplePage() {
                 {entry.photo ? (
                   <Image
                     className="person-photo"
-                    src={entry.photo}
+                    src={withBasePath(entry.photo)}
                     alt={entry.name}
                     width={140}
                     height={140}
