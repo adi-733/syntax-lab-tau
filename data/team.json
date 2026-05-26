@@ -1,0 +1,19 @@
+[
+  {
+    "role": "Principal Investigator",
+    "name": "Prof. Tal Siloni",
+    "photo": "/people/Tali.jpeg"
+  },
+  { "role": "PhD Student", "name": "Tom Dolev" },
+  { "role": "M.A. Student", "name": "Eyal Brusilovsky" },
+  { "role": "MsC Student", "name": "Amit Benalal" },
+  { "role": "B.A. Student", "name": "Itamar Steinitz" },
+  { "role": "B.A. Student", "name": "Eitan Wolff" },
+  { "role": "B.A. Student", "name": "Matan Harel" },
+  {
+    "role": "M.A. Student",
+    "name": "Daniel Lachs Rabinovich",
+    "photo": "/people/Daniel.avif"
+  },
+  { "role": "M.A. Student", "name": "Adi Raz" }
+]
