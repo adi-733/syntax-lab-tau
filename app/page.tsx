@@ -10,16 +10,16 @@ const navigation = [
 
 const focusAreas = [
   {
-    title: "Structure in real time",
-    text: "We study how syntactic structure is assembled online as readers and listeners encounter ambiguity, agreement, and long-distance dependencies.",
+    title: "Subject 1",
+    text: "Description of subject 1.",
   },
   {
-    title: "Hebrew and beyond",
-    text: "Our work uses Hebrew as a core testing ground while placing it in a broader typological and theoretical conversation.",
+    title: "Subject 2",
+    text: "Description of subject 2.",
   },
   {
-    title: "Methods that triangulate",
-    text: "We combine behavioral experiments, acceptability judgments, corpus-driven questions, and time-sensitive measures of comprehension.",
+    title: "Subject 3",
+    text: "Description of subject 3.",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function HomePage() {
             <span>|</span>
             <Link href="/publications/">Publications</Link>
             <span>|</span>
-            <a href="#contact">Contact the lab</a>
+            <a href="#contact">Contact</a>
           </p>
         </section>
 
@@ -88,9 +88,14 @@ export default function HomePage() {
               <strong>Email:</strong>{" "}
               <a href="mailto:syntaxlab@tauexample.ac.il">siloni@tauex.ac.il</a>
             </p>
-            <p>
-              <strong>Location:</strong> Webb 404 Building, Tel Aviv University
-            </p>
+
+            <div>
+              <strong>Location:</strong>
+              <p>
+                Webb Building, Room 404 <br />
+                30 Haim Levanon st., Ramat Aviv Tel Aviv 69978
+              </p>
+            </div>
           </div>
         </section>
       </main>
